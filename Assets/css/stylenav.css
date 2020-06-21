@@ -1,4 +1,18 @@
+body{
+    background-color: lightblue;
+    margin:0;
+    padding:0;
+}
+
+header{
+    margin:0;
+    padding: 0;
+}
+
 .menu-centered{
+    margin: 0;
+    padding: 0;
+
     background-color: darkorange;
     border: black;
     text-align: center;
@@ -59,6 +73,10 @@ div#imageperso{
     background-size: cover;
 }
 
+header{
+    margin: none;
+}
+
 .aside-height{
     float: left;
     height: 100%;
@@ -66,4 +84,36 @@ div#imageperso{
     border: black;
     background-color: darkgoldenrod;
     height: 100%;
+}
+
+.buttonGame{
+    font-size: 16px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: black;
+    height: 50px;
+    width: 200px;
+    background-color: darkorange;
+    
+}
+
+h4.titleperso{
+    font-style: italic;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttonGame:hover{
+    font-style: italic;
+    color: gray;
+    background-color: orange;
+}
+
+table{
+    background-color: lightsalmon;
+    border-bottom: gray;
+}
+
+.index-table-td{
+    padding-bottom: 50px;
 }
